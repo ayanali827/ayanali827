@@ -1,0 +1,12 @@
+{
+  "_note": "All axes set equal (a regular hexagon). Change the numbers (0-10) only if you want an uneven profile.",
+  "title": "skill radar",
+  "skills": {
+    "Perception": 8,
+    "Motion Planning": 8,
+    "State Estimation": 8,
+    "Deep Learning": 8,
+    "3D Reconstruction": 8,
+    "Control Theory": 8
+  }
+}

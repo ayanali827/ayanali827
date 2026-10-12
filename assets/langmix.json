@@ -1,0 +1,5 @@
+{
+  "title": "language stack",
+  "note": "Hand-authored, equal weight. Add or remove names freely; the bar re-splits evenly.",
+  "languages": ["Python", "MATLAB", "LaTeX"]
+}

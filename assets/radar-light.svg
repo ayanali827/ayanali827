@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="420" viewBox="0 0 560 420">
+<rect width="560" height="420" rx="12" fill="#ffffff"/>
+<polygon points="280.0,186.5 300.4,198.2 300.4,221.8 280.0,233.5 259.6,221.8 259.6,198.2" fill="none" stroke="#d0d7de"/>
+<polygon points="280.0,163.0 320.7,186.5 320.7,233.5 280.0,257.0 239.3,233.5 239.3,186.5" fill="none" stroke="#d0d7de"/>
+<polygon points="280.0,139.4 341.1,174.7 341.1,245.3 280.0,280.6 218.9,245.3 218.9,174.7" fill="none" stroke="#d0d7de"/>
+<polygon points="280.0,115.9 361.5,163.0 361.5,257.0 280.0,304.1 198.5,257.0 198.5,163.0" fill="none" stroke="#d0d7de"/>
+<polygon points="280.0,92.4 381.8,151.2 381.8,268.8 280.0,327.6 178.2,268.8 178.2,151.2" fill="none" stroke="#d0d7de"/>
+<line x1="280.0" y1="210.0" x2="280.0" y2="92.4" stroke="#d0d7de"/>
+<text x="280.0" y="75.2" text-anchor="middle" font-family="monospace" font-size="12" fill="#24292f">Perception</text>
+<line x1="280.0" y1="210.0" x2="381.8" y2="151.2" stroke="#d0d7de"/>
+<text x="400.2" y="144.6" text-anchor="start" font-family="monospace" font-size="12" fill="#24292f">Motion Planning</text>
+<line x1="280.0" y1="210.0" x2="381.8" y2="268.8" stroke="#d0d7de"/>
+<text x="400.2" y="283.4" text-anchor="start" font-family="monospace" font-size="12" fill="#24292f">State Estimation</text>
+<line x1="280.0" y1="210.0" x2="280.0" y2="327.6" stroke="#d0d7de"/>
+<text x="280.0" y="352.8" text-anchor="middle" font-family="monospace" font-size="12" fill="#24292f">Deep Learning</text>
+<line x1="280.0" y1="210.0" x2="178.2" y2="268.8" stroke="#d0d7de"/>
+<text x="159.8" y="283.4" text-anchor="end" font-family="monospace" font-size="12" fill="#24292f">3D Reconstruction</text>
+<line x1="280.0" y1="210.0" x2="178.2" y2="151.2" stroke="#d0d7de"/>
+<text x="159.8" y="144.6" text-anchor="end" font-family="monospace" font-size="12" fill="#24292f">Control Theory</text>
+<polygon points="280.0,115.9 361.5,163.0 361.5,257.0 280.0,304.1 198.5,257.0 198.5,163.0" fill="#0969da" fill-opacity="0.25" stroke="#0969da" stroke-width="2"/>
+</svg>

@@ -1,0 +1,31 @@
+{
+  "handle": "@ayanali827",
+  "window_title": "profile.sh --live",
+  "footer_right": "PKT UTC+5 · KARACHI NODE",
+  "rows": [
+    ["Subject",         "Ayan Ali Saleem"],
+    ["Role",            "Robotics & AI Researcher"],
+    ["Origin",          "Pakistan"],
+    ["Education",       "MSc Robotics & AI · ITMO University"],
+    ["Status",          ["Researching", "Building", "Publishing"]],
+    ["Focus",           "Perception · Motion Planning · Autonomy"],
+    ["Core.Perception", "YOLO · LiDAR Fusion · NeRF · Stereo"],
+    ["Core.Planning",   "A* · DWA · MPC · PID"],
+    ["Core.Estimation", "UKF · DBSCAN · PCA"],
+    ["Core.Frameworks", "PyTorch · OpenCV · LangGraph"],
+    ["Core.Sim",        "MuJoCo · Simulink"],
+    ["Grid.GitHub",     "ayanali827"],
+    ["Grid.Web",        "ayanali.tech"]
+  ],
+  "bench": {
+    "title": "THESIS.BENCH",
+    "meta": "KITTI · ~11 FPS · 7,481 frames",
+    "bars": [
+      ["Car IoU",           50.51,   100,   "50.51 %"],
+      ["Pedestrian IoU",    38.63,   100,   "38.63 %"],
+      ["GPU · ours",        1874,    12000, "1,874 MiB"],
+      ["GPU · TransFusion", 12000,   12000, "12,000+ MiB"]
+    ]
+  },
+  "pipeline": ["YOLOv8-seg", "LiDAR proj", "DBSCAN", "PCA · OBB"]
+}
