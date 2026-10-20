@@ -16,14 +16,14 @@ I am applying for PhD positions in **perception, 3D reconstruction, motion plann
 | Project | What it is | Result / status |
 |---|---|---|
 | **3D Perception for Autonomous Ground Vehicles** (MSc thesis) | Training-free pipeline: YOLOv8m-seg → calibrated LiDAR projection → adaptive mask erosion → DBSCAN → PCA 3D oriented boxes | KITTI: **Car IoU 50.51%, Pedestrian IoU 38.63%, ~11 FPS, 1,874 MiB** peak GPU memory. Code release in preparation |
-| **[TriLayerNav](https://github.com/ayanali827/TriNav-Tri-Layer-Navigation-A-DWA-MPC-)** | Tri-layer navigation framework (A*, DWA, MPC, PID) for differential-drive robots in MuJoCo | **Published:** *Gyroscopy and Navigation*, 2026 — [paper](https://link.springer.com/article/10.1134/S2075108726700094) |
+| **[TriLayer-Nav](https://github.com/ayanali827/TriNav-Tri-Layer-Navigation-A-DWA-MPC-)** | Tri-layer navigation framework (A*, DWA, MPC, PID) for differential-drive robots in MuJoCo | **Published:** *Gyroscopy and Navigation*, 2026 — [paper](https://link.springer.com/article/10.1134/S2075108726700094) |
 | **[Depth-Supervised NeRF](https://github.com/ayanali827/depth-supervised-nerf-notebooks)** | Controlled comparison of hard, soft, and hybrid depth-integration strategies for NeRF training | NeRF Synthetic dataset; PSNR / SSIM / depth-error evaluation |
 | **[YOLO benchmark on KITTI](https://github.com/ayanali827/object-detection-autonomous-navigation-yolo)** | YOLOv8 / YOLO11 / YOLO12 compared for driving perception | 954-image KITTI subset: **mAP@0.5 75.6 / 74.8 / 73.2**, 42–45 FPS |
 | **[Citation Reliability of Small LLMs](https://github.com/ayanali827/citation-reliability-small-llms)** | 850 references from Phi-3-mini and humains-junior verified against Crossref / OpenAlex across 45 topics | REAL_OK rate: **0.39 on famous topics → 0.03 on niche topics** (topic-level analysis, Wilson CIs) |
 
 ## Publications
 
-- **TriLayerNav: A Tri-Layer Navigation Framework Integrating A*, DWA, and MPC for Differential-Drive Robots** — *Gyroscopy and Navigation*, 2026. [Publisher page](https://link.springer.com/article/10.1134/S2075108726700094)
+- Mughal, U. A. B., **Ali, A.**, Urwa, & Abramchuk, M. V. **TriLayer-Nav: A Tri-Layer Navigation Framework Integrating A*, Dynamic Window Approach, and Model Predictive Control for Differential-Drive Robots** — *Gyroscopy and Navigation*, 2026, Vol. 17, No. 1, pp. 24–33. [Publisher page](https://link.springer.com/article/10.1134/S2075108726700094)
 - **Improving NeRF Training Quality Using Depth Data: A Comparative Study of Depth-Integration Strategies for 3D Scene Reconstruction** — 2026, manuscript under review. Code: [depth-supervised-nerf-notebooks](https://github.com/ayanali827/depth-supervised-nerf-notebooks)
 
 ## Research interests
