@@ -1,3 +1,13 @@
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img src="assets/banner-dark.svg" width="100%" alt="Ayan Ali Saleem — Robotics and AI researcher. Live perception dashboard: YOLOv8-seg, LiDAR projection, DBSCAN, PCA oriented boxes; planning with A-star, DWA and MPC. Thesis bench on KITTI: Car IoU 50.51 percent, pedestrian IoU 38.63 percent, 1,874 MiB GPU memory">
+</picture>
+
+</div>
+
 # Ayan Ali Saleem
 
 **MSc Robotics & Artificial Intelligence, ITMO University — 4.85/5.0, Red Diploma (honours). BE Electrical Engineering, NED University of Engineering and Technology, Karachi.**
@@ -9,11 +19,12 @@ I build autonomous systems that **see, decide, and move**: training-free 3D perc
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ayanali827/TriNav-Tri-Layer-Navigation-A-DWA-MPC-/main/docs/obstacle_navigation.gif" width="880" alt="MuJoCo simulation of my TriLayer-Nav system: a differential-drive robot follows the A-star global path, avoids obstacles with DWA, and tracks the trajectory with MPC">
+<img src="https://raw.githubusercontent.com/ayanali827/TriNav-Tri-Layer-Navigation-A-DWA-MPC-/main/assets/Enviroment%20mujoco.png" width="49%" alt="My MuJoCo simulation environment: a differential-drive robot among cylindrical obstacles on a checkerboard floor">
+<img src="https://raw.githubusercontent.com/ayanali827/TriNav-Tri-Layer-Navigation-A-DWA-MPC-/main/assets/Result.jpg" width="49%" alt="Analysis of one TriLayer-Nav run: robot trajectory against the A-star global path among obstacles, heading and velocity profiles, control signals, and DWA versus MPC velocity and yaw-rate commands">
 
 </div>
 
-*Figure 1 — I combine A\* global planning, DWA local avoidance, and MPC trajectory tracking for a differential-drive robot in MuJoCo. This is the system from my Gyroscopy and Navigation paper (I am second author). Code: [TriNav-Tri-Layer-Navigation-A-DWA-MPC-](https://github.com/ayanali827/TriNav-Tri-Layer-Navigation-A-DWA-MPC-).*
+*Figure 1 — Left: the MuJoCo environment I built for TriLayer-Nav. Right: one run analysed — the executed trajectory against the A\* global path, heading and velocity profiles, and the DWA-versus-MPC command comparison. This is the system from my Gyroscopy and Navigation paper (I am second author). Code: [TriNav-Tri-Layer-Navigation-A-DWA-MPC-](https://github.com/ayanali827/TriNav-Tri-Layer-Navigation-A-DWA-MPC-).*
 
 ---
 
