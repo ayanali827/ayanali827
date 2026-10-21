@@ -65,9 +65,17 @@ I build autonomous systems that **see, decide, and move**: training-free 3D perc
 
 - **Improving NeRF Training Quality Using Depth Data: A Comparative Study of Depth-Integration Strategies for 3D Scene Reconstruction** — 2026, manuscript under review. Code: [depth-supervised-nerf-notebooks](https://github.com/ayanali827/depth-supervised-nerf-notebooks)
 
-## 🛠️ Methods
+## 🛠️ Methods & tools
 
-**Methods & tools:** A* · DWA · MPC · PID · UKF · DBSCAN · PCA · YOLO · NeRF · Python · PyTorch · OpenCV · Open3D · ROS · MuJoCo · MATLAB · C/C++ · LaTeX
+**Methods:** A* · DWA · MPC · PID · UKF · DBSCAN · PCA · YOLO · NeRF
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,opencv,ros,matlab,c,cpp,latex" alt="Tools I use: Python, PyTorch, OpenCV, ROS, MATLAB, C, C++, LaTeX">
+
+</div>
+
+**Tools:** Python · PyTorch · OpenCV · Open3D · ROS · MuJoCo · MATLAB · C/C++ · LaTeX
 
 ## 📫 Contact
 
