@@ -8,6 +8,15 @@
 
 </div>
 
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayan-saleem)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ayanali.tech-0F766E?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ayanali.tech)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-4690-1346)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayansaleem827@gmail.com)
+
+</div>
+
 # Ayan Ali Saleem
 
 **MSc Robotics & Artificial Intelligence, ITMO University — 4.85/5.0, Red Diploma (honours). BE Electrical Engineering, NED University of Engineering and Technology, Karachi.**
