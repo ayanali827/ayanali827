@@ -28,36 +28,13 @@ I build autonomous systems that **see, decide, and move**: training-free 3D perc
 
 ## 🧭 My research, as one system
 
-```mermaid
-flowchart LR
-    subgraph PERCEPTION["👁️ Perception"]
-        CAM["Camera"] --> SEG["YOLOv8m-seg<br/>segmentation"]
-        LID["LiDAR"] --> PROJ["Calibrated<br/>projection"]
-        SEG --> PROJ
-        PROJ --> CLU["DBSCAN + PCA"]
-        CLU --> BOX["3D oriented<br/>bounding boxes"]
-    end
-    subgraph RECON["🧊 3D Reconstruction"]
-        IMG["Multi-view<br/>images"] --> NERF["NeRF"]
-        DEP["Depth supervision<br/>hard · soft · hybrid"] --> NERF
-        NERF --> GEO["Geometry +<br/>novel views"]
-    end
-    subgraph PLAN["🧭 Planning & Control"]
-        ASTAR["A*<br/>global planning"] --> DWA["DWA<br/>local avoidance"]
-        DWA --> MPC["MPC<br/>trajectory following"]
-        MPC --> PID["PID<br/>wheel control"]
-    end
-    BOX --> ASTAR
-    GEO -.-> PROJ
-    PID --> ROBOT["🤖 Autonomous<br/>ground vehicle"]
+<div align="center">
 
-    classDef perc fill:#0d2b45,stroke:#79c0ff,color:#e6f2ff;
-    classDef recon fill:#2b1a45,stroke:#bc8cff,color:#f2eaff;
-    classDef plan fill:#0d3b2e,stroke:#3fb950,color:#e6fff2;
-    class CAM,SEG,LID,PROJ,CLU,BOX perc;
-    class IMG,DEP,NERF,GEO recon;
-    class ASTAR,DWA,MPC,PID plan;
-```
+<img src="assets/research-console.svg" width="100%" alt="Research console — system pipeline from sensors through YOLOv8m-seg, calibrated projection, DBSCAN and PCA to 3D boxes, then A-star, DWA, MPC and PID planning and control; thesis bench: Car IoU 50.51 percent, Pedestrian IoU 38.63 percent, 1,874 MiB GPU memory versus 12,000+ for TransFusion; YOLO bench mAP at 0.5 of 75.6, 74.8 and 73.2">
+
+</div>
+
+**Sense → Perceive → Reconstruct → Plan → Act.** Camera + LiDAR → YOLOv8m-seg → calibrated projection → DBSCAN + PCA → 3D oriented boxes → A* → DWA → MPC → PID → autonomous ground vehicle, with depth-supervised NeRF providing geometry.
 
 ---
 
