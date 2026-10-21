@@ -67,16 +67,11 @@ I build autonomous systems that **see, decide, and move**: training-free 3D perc
 
 ## 🛠️ Methods & tools
 
-**Methods:** A* · DWA · MPC · PID · UKF · DBSCAN · PCA · YOLO · NeRF
-
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=python,pytorch,opencv,ros,matlab,c,cpp,latex" alt="Tools I use: Python, PyTorch, OpenCV, ROS, MATLAB, C, C++, LaTeX">
 
 </div>
 
-**Tools:** Python · PyTorch · OpenCV · Open3D · ROS · MuJoCo · MATLAB · C/C++ · LaTeX
 
-## 📫 Contact
 
-[LinkedIn](https://www.linkedin.com/in/ayan-saleem) · [Portfolio](https://ayanali.tech) · [ORCID](https://orcid.org/0009-0004-4690-1346) · [Email](mailto:ayansaleem827@gmail.com)
