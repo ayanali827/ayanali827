@@ -46,6 +46,7 @@ I build autonomous systems that **see, decide, and move**: training-free 3D perc
 | **Depth-supervised NeRF** | I compared hard, soft, and hybrid depth integration under one controlled protocol on NeRF Synthetic. | Evaluated with PSNR / SSIM / depth error. [Code + notebooks](https://github.com/ayanali827/depth-supervised-nerf-notebooks) |
 | **YOLO benchmark on KITTI** | I benchmarked YOLOv8 / YOLO11 / YOLO12 like-for-like on a 954-image KITTI subset. | **mAP@0.5: 75.6 / 74.8 / 73.2** · 42–45 FPS. [Code + results](https://github.com/ayanali827/object-detection-autonomous-navigation-yolo) |
 | **Citation reliability of small LLMs** | I verified 850 LLM-generated references against Crossref / OpenAlex across 45 topics. | REAL_OK rate **0.39 on famous topics → 0.03 on niche topics**. [Code](https://github.com/ayanali827/citation-reliability-small-llms) |
+| **Applied LLM systems** | I built four working LLM systems in Python with LangChain: validated structured extraction, RAG over PDFs with FAISS, a tool-using agent, and a Streamlit chat app combining the RAG and agent systems, behind a multi-provider fallback chain. | **54 offline tests passing**. [Code](https://github.com/ayanali827/applied-llm-systems) |
 
 ## 🖥️ My research, as one system
 
