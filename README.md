@@ -19,8 +19,11 @@
 
 # Ayan Ali Saleem
 
-**MSc Robotics & Artificial Intelligence, ITMO University — 4.85/5.0, Red Diploma (honours). BE Electrical Engineering, NED University of Engineering and Technology, Karachi.**
+<!-- [NEEDS INPUT: location — Hyderabad or Karachi, to be confirmed. No city is stated on this profile until then.] -->
+
+**MSc Robotics & Artificial Intelligence, ITMO University — 4.85/5.0, Red Diploma (honours). BE Electrical Engineering, NED University of Engineering and Technology.**
 I build autonomous systems that **see, decide, and move**: training-free 3D perception from camera + LiDAR, depth-supervised 3D reconstruction, and hierarchical planning and control. **I am applying for PhD positions in perception, 3D reconstruction, motion planning, and autonomous navigation.**
+Lecturer in Computer Science, SZABIST (November 2026–present).
 
 ---
 
@@ -42,10 +45,10 @@ I build autonomous systems that **see, decide, and move**: training-free 3D perc
 | Project | What I built | Measured result |
 | --- | --- | --- |
 | **3D perception for autonomous ground vehicles** — *MSc thesis* | I built a training-free pipeline — YOLOv8m-seg → calibrated LiDAR projection → adaptive mask erosion → DBSCAN → PCA oriented 3D boxes — that needs **no 3D training data**. | KITTI: **Car IoU 50.51% · Pedestrian IoU 38.63%** · ~11 FPS · 1,874 MiB peak GPU. *Code release in preparation.* |
-| **TriLayer-Nav** | I co-developed a tri-layer navigation stack: A\* → DWA → MPC → PID for differential-drive robots, evaluated in MuJoCo. | **Published** — *Gyroscopy and Navigation*, 2026. [Code](https://github.com/ayanali827/TriNav-Tri-Layer-Navigation-A-DWA-MPC-) |
+| **TriLayer-Nav** | I co-developed a tri-layer navigation stack: A\* → DWA → MPC → PID for differential-drive robots, evaluated in MuJoCo. | **Published** — *Gyroscopy and Navigation*, 2026. Against the baseline: position accuracy **+27.46%**, velocity mean error **−52.90%**, acceleration tracking error **−45.22%**. [Code](https://github.com/ayanali827/TriNav-Tri-Layer-Navigation-A-DWA-MPC-) |
 | **Depth-supervised NeRF** | I compared hard, soft, and hybrid depth integration under one controlled protocol on NeRF Synthetic. | Evaluated with PSNR / SSIM / depth error. [Code + notebooks](https://github.com/ayanali827/depth-supervised-nerf-notebooks) |
-| **YOLO benchmark on KITTI** | I benchmarked YOLOv8 / YOLO11 / YOLO12 like-for-like on a 954-image KITTI subset. | **mAP@0.5: 75.6 / 74.8 / 73.2** · 42–45 FPS. [Code + results](https://github.com/ayanali827/object-detection-autonomous-navigation-yolo) |
-| **Citation reliability of small LLMs** | I verified 850 LLM-generated references against Crossref / OpenAlex across 45 topics. | REAL_OK rate **0.39 on famous topics → 0.03 on niche topics**. [Code](https://github.com/ayanali827/citation-reliability-small-llms) |
+| **YOLO benchmark on KITTI** | I benchmarked YOLOv8 / YOLO11 / YOLO12 like-for-like on a 954-image KITTI subset. | **mAP@0.5: 75.6 / 74.8 / 73.2** · mAP@0.5:0.95: 48.7 / 50.2 / 49.5 · 42–45 FPS on RTX 4050. [Code + results](https://github.com/ayanali827/object-detection-autonomous-navigation-yolo) |
+| **Citation reliability of small LLMs** | I verified 850 LLM-generated references against Crossref / OpenAlex across 45 topics. | REAL_OK rate **0.39 on famous topics → 0.03 on niche topics → 0.00 on recent topics**. [Code](https://github.com/ayanali827/citation-reliability-small-llms) |
 | **Applied LLM systems** | I built four working LLM systems in Python with LangChain: validated structured extraction, RAG over PDFs with FAISS, a tool-using agent, and a Streamlit chat app combining the RAG and agent systems, behind a multi-provider fallback chain. | **54 offline tests passing**. [Code](https://github.com/ayanali827/applied-llm-systems) |
 
 ## 🖥️ My research, as one system
@@ -68,11 +71,16 @@ I build autonomous systems that **see, decide, and move**: training-free 3D perc
 
 ## 🛠️ Methods & tools
 
+**Methods:** A* · DWA · MPC · PID · UKF · DBSCAN · PCA · YOLO · NeRF
+
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=python,pytorch,opencv,ros,matlab,c,cpp,latex" alt="Tools I use: Python, PyTorch, OpenCV, ROS, MATLAB, C, C++, LaTeX">
 
 </div>
 
+**Tools:** Python · PyTorch · OpenCV · Open3D · ROS · MuJoCo · MATLAB · C/C++ · LaTeX
 
+## 📫 Contact
 
+[LinkedIn](https://www.linkedin.com/in/ayan-saleem) · [Portfolio](https://ayanali.tech) · [ORCID](https://orcid.org/0009-0004-4690-1346) · [Email](mailto:ayansaleem827@gmail.com)
